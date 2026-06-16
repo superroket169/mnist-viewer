@@ -1,0 +1,10 @@
+[package]
+name = "mnist-viewer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+filuplex = { git = "https://github.com/superroket169/filuplex" }
+raylib = { version = "5.5", features = ["wayland"] } # wayland is just for wayland
+serde = { version = "1", features = ["derive"] }
+bincode = "1"
