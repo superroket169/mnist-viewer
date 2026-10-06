@@ -5,6 +5,6 @@ edition = "2024"
 
 [dependencies]
 filuplex = { git = "https://github.com/superroket169/filuplex" }
-raylib = { version = "5.5", features = ["wayland"] } # wayland is just for wayland
+raylib = { version = "5.5", default-features = false, features = ["sdl"] }
 serde = { version = "1", features = ["derive"] }
 bincode = "1"
